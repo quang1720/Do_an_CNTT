@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-pro-sider {
+  background-color: #ffffff;
+  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
+}
+
+.ant-pro-sider-logo {
+  display: flex;
+  justify-content: center;
+}
+.ant-page-header {
+  background-color: #fafafa;
+}
+
+:root {
+  --primary-color: #452dd3;
+  --secondary-color: #ff6f00;
+  --text-gray: #a5a3a8;
+  --warning-color: #ff934b;
+  --error-color: #f74360;
+  --success-color: #00c48c;
+  --normal-color: #1f2024;
+  --info-color: #5487f5;
+  --text-color-primary: #000000;
+  --text-color-secondary: #a5a3a8;
+  --bg-surface-primary: #ffffff;
+  --bg-surface-secondary: #fcf7ff;
+  --bg-surface-light: #efefef;
+  --bg-surface-dark: #0d0635;
+  --card-head-height: 70px;
+  --card-radius: 20px;
+  --border-radius-base: 6px;
+  --border-radius-sm: var(--border-radius-base);
+  --border-style-base: solid;
+  --btn-border-radius-base: 8px;
+  --menu-item-active-bg: var(--primary-color);
+  --menu-highlight-color: var(--white-color);
+  --menu-item-height: 56px;
+  --menu-item-color: rgba(0, 0, 0, 0.45);
+  --table-header-bg: #f7f9ff;
+  --table-header-color: var(--grey-color);
+  --table-header-cell-split-color: #f7f9ff;
+  --card-head-height: 70px;
+  --border-radius-base: 6px;
+  --border-radius-sm: var(--border-radius-base);
+  --border-style-base: solid;
+}
+
+/* .ant-table thead {
+  & thead > tr > th {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+  & .anticon {
+    font-size: 1.25em;
+  }
+} */
+.ant-menu-item span {
+  color: #a5a3a8;
+  font-weight: 500;
+}
+.ant-pro-menu-item {
+  font-weight: 600;
+}
+.ant-menu-item-selected .ant-menu-title-content span {
+  color: #ffffff;
+}
+.ant-menu-sub {
+  background-color: #fcf7ff !important;
+  /* .ant-menu-title-content { */
+  /* padding-left: 1rem; */
+  /* } */
+}
+
+.ant-menu-sub .ant-menu-title-content {
+  padding-left: 1rem;
+}
+
+.ant-menu-submenu {
+  border-radius: 6px;
+}
+.ant-menu-submenu-open {
+  background-color: #fcf7ff !important;
+}
+.ant-menu-submenu-selected .ant-menu-title-content {
+  color: #452dd3;
+}
+.ant-statistic-title {
+  font-weight: 500;
+}
+
+.ant-statistic-content {
+  font-weight: 700;
+  color: var(--secondary-color) !important;
+  font-size: 1.75rem !important;
+}
+.ant-pro-card,
+.ant-card,
+.ant-table {
+  box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1),
+    0px 10px 16px rgba(20, 37, 63, 0.06);
+  border-width: 0px !important;
+}
+.ant-pro-sider-menu {
+  padding: 18px 8px;
+}
+
+.ant-pro-sider-menu .ant-menu-item {
+  border-radius: 6px;
+}
+
+.ant-pro-sider-menu .ant-menu-item::after {
+  display: none;
+}
+
+.ant-menu-inline-collapsed {
+  padding: 0px;
+}
+
+.ant-menu-inline-collapsed .ant-menu-item {
+  border-radius: 0px;
+}
+
+/* .ant-pro-sider-logo h1 {
+  font-size: 2rem;
+  margin: 0 0 0 0.5rem;
+  &:before {
+    content: "ted";
+    color: --primary-color;
+  }
+  &:after {
+    content: "gro";
+    color: --secondary-color;
+  }
+} */
+
+.ant-statistic-title {
+  font-weight: 500;
+}
+
+.ant-statistic-content,
+.ant-form-item-label {
+  font-weight: 600;
+}
+
+.ant-btn {
+  border-radius: 1rem !important;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+.ant-btn:active,
+.ant-btn.active {
+  border-color: var(--primary-active-color);
+}
+.ant-btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  background-color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+.ant-btn-primary:active,
+.ant-btn-primary.active {
+  background-color: var(--primary-active-color);
+  border-color: var(--primary-active-color);
+}
+.ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child) {
+  border-right-color: var(--primary-hover-color);
+  border-left-color: var(--primary-hover-color);
+}
+.ant-btn-group .ant-btn-primary:first-child:not(:last-child) {
+  border-right-color: var(--primary-hover-color);
+}
+.ant-btn-group .ant-btn-primary:last-child:not(:first-child),
+.ant-btn-group .ant-btn-primary + .ant-btn-primary {
+  border-left-color: var(--primary-hover-color);
+}
+.ant-btn-ghost:hover,
+.ant-btn-ghost:focus {
+  color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+.ant-btn-ghost:active,
+.ant-btn-ghost.active {
+  color: var(--primary-active-color);
+  border-color: var(--primary-active-color);
+}
+.ant-btn-dashed:hover,
+.ant-btn-dashed:focus {
+  color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+.ant-btn-dashed:active,
+.ant-btn-dashed.active {
+  color: var(--primary-active-color);
+  border-color: var(--primary-active-color);
+}
+.ant-btn-link {
+  color: var(--primary-color);
+}
+.ant-btn-link:hover,
+.ant-btn-link:focus {
+  color: var(--primary-hover-color);
+  border-color: transparent;
+}
+.ant-btn-link:active,
+.ant-btn-link.active {
+  color: var(--primary-active-color);
+  border-color: transparent;
+}
+.ant-btn-background-ghost.ant-btn-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.ant-btn-background-ghost.ant-btn-primary:hover,
+.ant-btn-background-ghost.ant-btn-primary:focus {
+  color: var(--primary-hover-color);
+  border-color: var(--primary-hover-color);
+}
+.ant-btn-background-ghost.ant-btn-primary:active,
+.ant-btn-background-ghost.ant-btn-primary.active {
+  color: var(--primary-active-color);
+  border-color: var(--primary-active-color);
+}
+.ant-btn-background-ghost.ant-btn-link {
+  color: var(--primary-color);
+}
+.ant-btn-background-ghost.ant-btn-link:hover,
+.ant-btn-background-ghost.ant-btn-link:focus {
+  color: var(--primary-hover-color);
+}
+.ant-btn-background-ghost.ant-btn-link:active,
+.ant-btn-background-ghost.ant-btn-link.active {
+  color: var(--primary-active-color);
+}
+
+.ant-btn-dangerous {
+  background: #ff4d4f !important;
+  border-color: #ff4d4f !important;
+}
